@@ -1,0 +1,35 @@
+.features {
+  padding-bottom: 0;
+}
+
+.features__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.features__item {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc((100% - 120px) / 4);
+}
+
+.features__text {
+  color: var(--text-color);
+}
+
+.features__icon {
+  @extend %flex;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background: var(--section-bg-color);
+  margin-bottom: 30px;
+  border-radius: var(--border-rad);
+}
+
+.features__icon-svg {
+  background: var(--section-bg-color);
+  border-radius: var(--border-rad);
+}

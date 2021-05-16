@@ -1,0 +1,44 @@
+.subscribe {
+  margin-left: auto;
+}
+
+.subscribe__form-field {
+  font-size: 16px;
+  line-height: 1.25;
+
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  margin-right: 12px;
+
+  color: var(--base-bg-color);
+  background-color: transparent;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: var(--border-rad);
+}
+
+.subscribe__form-field::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe__form-field:-webkit-autofill,
+.subscribe__form-field:-webkit-autofill:hover,
+.subscribe__form-field:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--base-bg-color);
+  -webkit-box-shadow: 0 0 0px 1000px var(--secondary-bg-color) inset;
+  box-shadow: 0 0 0px 1000px var(--secondary-bg-color) inset;
+}
+
+.subscribe__submit-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+}
+
+.subscribe__submit-icon {
+  margin-left: 10px;
+  fill: currentColor;
+}
